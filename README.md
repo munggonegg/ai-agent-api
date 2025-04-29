@@ -84,6 +84,7 @@ Response:
 ├── .env.example      # Example environment file
 ├── requirements.txt  # Python dependencies
 ├── README.md         # This readme file
+├── Procfile          # For deployment
 └── .gitignore        # Git ignore settings
 ```
 
