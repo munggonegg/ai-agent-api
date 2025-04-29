@@ -89,3 +89,18 @@ Response:
 ```
 
 Made with ❤️ using FastAPI and Groq.
+
+## 🚀 Deploy FastAPI app to Railway
+Deploy on Railway :
+1. Go to https://railway.app/
+2. Click "New Project" ➔ "Deploy from GitHub Repo"
+3. Connect your GitHub account if asked
+4. Choose your repo
+5. Railway will auto-detect the Procfile and build the project
+6. Go to "Variables" ➔ "New Variable" and add your environment variable:
+
+    | Key            | Value                  |
+    |----------------|------------------------|
+    | `GROQ_API_KEY` | your-actual-groq-key   |
+
+7. Done! Go to "Settings" ➔ "Generate Domain"
